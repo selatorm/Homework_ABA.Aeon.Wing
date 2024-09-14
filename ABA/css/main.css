@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(10, 64, 67);
+    background: linear-gradient(90deg, rgba(4, 65, 35, 0.816) 0%, rgba(30,179,167,1) 42%, rgba(30,179,166,1) 44%, rgba(35,174,154,1) 100%, rgba(0,212,255,1) 100%);
+    
+    
+}
+h1{
+
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(8, 78, 78) 0%, rgb(10, 77, 73) 8%, rgba(0,212,255,1) 48%);
+    color: transparent;
+    background-clip: text;
+}
+.title {
+    margin-top: 10px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+}
+header{
+    display: flex;
+    margin-top: 5px;
+    align-items: center;
+    gap: 10px;
+}
+header span{
+    padding: 15px;
+    border-radius: 100px;
+    background: rgb(115,237,226);
+    background: linear-gradient(90deg, rgb(54, 166, 157) 8%, rgba(32,134,121,1) 73%, rgba(16,114,100,1) 100%, rgba(0,212,255,1) 100%);
+
+}
+.line {
+    width: 300px;
+    height: 4px;
+    background: rgb(115,237,226);
+    background: linear-gradient(90deg, rgb(54, 166, 157) 8%, rgba(32,134,121,1) 73%, rgba(16,114,100,1) 100%, rgba(0,212,255,1) 100%);
+
+    
+}
+
+.container{
+    display: flex;
+    width: 80%;
+    margin-top: 5px;
+    border-radius: 10px;
+    background: rgb(115,237,226);
+    background: linear-gradient(90deg, rgb(54, 166, 157) 8%, rgba(32,134,121,1) 73%, rgba(16,114,100,1) 100%, rgba(0,212,255,1) 100%);
+
+}
+
+.left-form {
+    flex: 0.8;
+    clip-path: polygon(81% 0, 97% 50%, 83% 100%, 0 100%, 0 0);
+}
+
+.right-form{
+    flex: 0.8;
+    background: rgb(25, 170, 141);
+    border-radius: 0px 10px 10px 0px;
+    display: flex;
+    justify-content: end;
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+
+}
+
+.right-form img {
+    width: 190px;
+    height: 190px;
+}
+
+.form-container{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.form-container img{
+    width: 140px;
+    height: 140px;
+    border-radius: 60px;
+}
+
+.form-group {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+
+.form-group input[type="text"]{
+    flex: 1;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.left-form img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.form-group button{
+    padding: 15px 30px;
+    background: rgb(115,237,226);
+    background: linear-gradient(90deg, rgb(29, 126, 118) 8%, rgb(70, 178, 164) 73%, rgb(43, 155, 138) 100%, rgba(0,212,255,1) 100%);
+    color: #fff;
+    border-radius: 10px;
+    font-size: 25px;
+    margin: 10px;
+}
